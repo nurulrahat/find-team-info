@@ -14,13 +14,13 @@ const Home = () => {
     }, [])
     return (
         <>
-            <div className="bgImage" style={{ backgroundImage: `url(${bgImage})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover',}}>
-                <h1>Find Team Info</h1>
+            <div className="bgImage " style={{ backgroundImage: `url(${bgImage})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover',}}>
+                <h1 className="text-success">Find Team Info</h1>
             </div>
             <div className=" row row-cols-1 row-cols-md-4 g-5 m-3 bg-secondary ">
 
                 {
-                    teams.map(teams => <AllTeam team={teams}></AllTeam>)
+                    teams.map(teams => <AllTeam team={teams} key={teams.idTeam}></AllTeam>)
                 }
             </div>
                 {/* <footer>

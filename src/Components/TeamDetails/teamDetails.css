@@ -8,3 +8,11 @@ margin: 20px;
 background-color: white;
 border-radius: 5px;
 }
+.footerCls{
+    margin-top:10px
+}
+.dynamicCls{
+   
+    margin:auto;
+    border-radius:15px
+}

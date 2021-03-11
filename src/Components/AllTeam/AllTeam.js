@@ -1,7 +1,7 @@
 import React from 'react';
 import { useHistory } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faArrowRight, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faArrowRight, } from '@fortawesome/free-solid-svg-icons'
 const AllTeam = (props) => {
     const { idTeam, strTeam, strCountry, strTeamBadge, strSport } = props.team;
     const idHistory = useHistory()
